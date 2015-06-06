@@ -1,11 +1,23 @@
 
 public class Point3D {
 
-	int x, y, z;
-	public Point3D(int x, int y, int z)
+	double x, y, z;
+	public Point3D(double x, double y, double z)
 	{
 		this.x = x;
-		this.y = x;
-		this.z = x;
+		this.y = y;
+		this.z = z;
+	}
+	public double getX()
+	{
+		return x;
+	}
+	public double getY()
+	{
+		return y;
+	}
+	public double getZ()
+	{
+		return z;
 	}
 }
